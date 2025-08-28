@@ -1,4 +1,9 @@
 import streamlit as st
 
-age = st.number_input("Enter your age",min_value=1,max_value=80,step=1)
-st.write(f"Your age is {age}. Welcome to the streamlit world!")
+name = st.text_input("Enter your name")
+birth_year = st.number_input("Your birth year",min_value=1900,max_value=2100,step=1)
+
+if name:
+  current_year = 2025
+  age = current_year - birth_year
+  st.write(f"Hello {name}! Your age is {age}")
