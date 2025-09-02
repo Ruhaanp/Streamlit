@@ -12,7 +12,7 @@ backstory = st.text_area("Write your super backstory")
 
 superpower = st.selectbox("Choose your main superpower", ["Flying","Invisibility","Mind Reading","Time Travel", "Super Strength", "Iron Hands"])
 
-sidekicks = st.multiselect("Pick your super team", ["Robin", "Bucky Barnes", "Kid Flash", "Speedy", "Aqualad", "Superboy", "Wonder Girl", "Harley Quinn", "Black Tom Cassidy", "Rhino", "Executioner", "Toad with Magneto"])
+sidekicks = st.multiselect("Pick your super team", ["Robin", "Bucky Barnes", "Kid Flash", "Speedy", "Aqualad", "Superboy", "Wonder Girl", "Harley Quinn", "Black Tom Cassidy", "Rhino", "Executioner", "Toad with Magneto","Rick Jones"])
 
 strength = st.slider("Rate your power level", 1,100,50)
 
